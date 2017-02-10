@@ -40,8 +40,10 @@ SOURCES += main.cpp\
     Model/operationimpl.cpp \
     Controller/operationcontroller.cpp \
     Controller/diseasecontroller.cpp \
-    E:/Nueva carpeta/subdiseasescontroller.cpp \
-    Controller/subdiseasecontroller.cpp
+    Controller/subdiseasecontroller.cpp \
+    View/registerpatient.cpp \
+    View/registerapppointment.cpp \
+    View/searchhc.cpp
 
 HEADERS  += clinica.h \
         View/clinica.h \
@@ -64,6 +66,12 @@ HEADERS  += clinica.h \
     Model/operationImpl.h \
     Controller/operationcontroller.h \
     Controller/diseasecontroller.h \
-    Controller/subdiseasecontroller.h
+    Controller/subdiseasecontroller.h \
+    View/registerpatient.h \
+    View/registerapppointment.h \
+    View/searchhc.h
 
-FORMS    += View/clinica.ui
+FORMS    += View/clinica.ui \
+    View/registerpatient.ui \
+    View/registerapppointment.ui \
+    View/searchhc.ui

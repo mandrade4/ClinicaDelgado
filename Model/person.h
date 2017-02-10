@@ -15,6 +15,8 @@ private:
     std::string civilstate;
     std::string address;
 public:
+    person();
+    ~person();
     int getId_person();
     int getId_roletype();
     void setId_person(int value);

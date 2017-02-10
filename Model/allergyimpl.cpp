@@ -2,6 +2,7 @@
 #include <QSqlQuery>
 #include <QDebug>
 
+
 Allergy* AllergyImpl::getAllergybyId(int id_allergy)
 {
     QSqlQuery query;
@@ -17,7 +18,7 @@ Allergy* AllergyImpl::getAllergybyId(int id_allergy)
 std::vector<Allergy>* AllergyImpl::getAllergies()
 {
     QSqlQuery query;
-    bool ok = query.exec(QString("select * from tbl_allergy"));
+    bool ok = query.exec(QString("select * from db29179_cie10"));
     std::vector<Allergy>* allergies = new std::vector<Allergy>();
     while(query.next()){
         Allergy allergy;
@@ -27,3 +28,9 @@ std::vector<Allergy>* AllergyImpl::getAllergies()
     }
     return allergies;
 }
+
+void AllergyImpl::insertAllergy(QString nuevaAlergia)
+{
+
+}
+

@@ -14,3 +14,5 @@ QList<Allergy> AllergyController::getAllergies(){//todas las alergias
     }
     return allergies;
 }
+
+

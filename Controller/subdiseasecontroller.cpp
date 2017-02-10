@@ -1,4 +1,4 @@
-#include "subdiseasescontroller.h"
+#include "subdiseasecontroller.h"
 
 subDiseasesController::subDiseasesController()
 {

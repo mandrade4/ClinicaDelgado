@@ -10,6 +10,7 @@ class AllergyController
 public:
     AllergyController();
     QList<Allergy> getAllergies();
+    Allergy setAllergy();
 };
 
 #endif // ALLERGYCONTROLLER_H

@@ -17,11 +17,11 @@ person* personImpl::getpersonbyDNI(int dni){
 
 person* personImpl::getpersonbyName(std::string name){
     QSqlQuery query;
-    bool ok = query.exec(QString("select * from tbl_person where tbl_person_name =")+QString::number(name));
-    person* person = new person();
+    bool ok = query.exec(QString("select * from tbl_person where tbl_person_name =")+QString:(name.c_str()));
+    person* Person = new person();
     while(query.next()){
-        person->setDni(query.value(0).toInt());
-        person->setName(query.value(1).toString().toStdString());
+        Person->setDni(query.value(0).toInt());
+        Person->setName(query.value(1).toString().toStdString());
     }
-    return person;
+    return Person;
 }
