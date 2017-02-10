@@ -1,7 +1,7 @@
 #ifndef PERSON_H
 #define PERSON_H
 #include <string>
-#endif // PERSON_H
+
 
 class person{
 private:
@@ -36,4 +36,6 @@ public:
     std::string getAddress() const;
     void setAddress(const std::string &value);
 };
+
+#endif // PERSON_H
 

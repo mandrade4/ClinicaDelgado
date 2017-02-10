@@ -11,6 +11,7 @@ public:
     personController();
    // QList<person> getPersonsDNI();//todas las personas por dni
     QList<person> getPersonsNAME();//todas las personas por nombre
+    void insertPerson();
 };
 
 #endif // PERSONCONTROLLER_H
