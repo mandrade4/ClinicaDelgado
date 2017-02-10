@@ -75,6 +75,16 @@ void person::setAddress(const std::string &value)
 address = value;
 }
 
+person::person()
+{
+
+}
+
+person::~person()
+{
+
+}
+
 void person::setId_person(int value)
 {
     id_person = value;
